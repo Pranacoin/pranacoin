@@ -10,7 +10,7 @@ What is Pranacoin?
 ----------------
 
 Pranacoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 5 minutes block targets
+ - 10 minutes block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~5.6 million total coins
 
