@@ -1,0 +1,34 @@
+src/*.exe
+src/pranacoin
+src/pranacoind
+src/test_pranacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.pranacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+pranacoin-qt
+Pranacoin-Qt.app
+
+# Unit-tests
+Makefile.test
+pranacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
